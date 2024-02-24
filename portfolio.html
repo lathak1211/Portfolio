@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .main-panel {
+      width: 100%;
+      float: left;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    .container {
+      padding: 0 10%;
+    }
+    .logo {
+      font-size: 40px;
+	    font-weight: 600;
+	    color: white;
+    }
+    .span-col {
+      color: #E1CDB4;
+    }
+    nav {
+      float: right;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+    	margin-left: 20px;
+      color: #E1CDB4;
+    }
+    .container-1 {
+      padding: 0 20%;
+    }
+    .width-50 {
+      float: left;
+      width: 50%;
+    }
+    .banner-section {
+      width: 100%;
+      float: left;
+      margin-top: 40vh;
+    }
+    .banner-section h1 {
+      font-size: 48px;
+	    margin-top: 10px;
+	    font-weight: bolder;
+	    color: white;
+    }
+    .banner-section h2 {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 5px;
+      font-weight: 400;
+    }
+    .main-panel img {
+      margin-top: 30%;
+      width: 100%;
+    }
+    .main-section {
+      width: 100%;
+      float: left;
+      padding: 110px 0px 110px 0px;
+    }
+    .width-100 {
+      width: 100%;
+      float: left;   
+    }
+    .mt-20 {
+      margin-top: 20px;
+    }
+    .heading-text {
+      width: 100%;
+      float: left;
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #E1CDB4;
+    }
+    .about-img {
+      width: 80%;
+      padding: 0px 50px;
+      margin-top: 100px;
+    }
+    .about {
+      width: 100%;
+      float: left;
+      padding: 20px;
+    }
+    .about h3,p {
+      font-size: 16px;
+      margin-top: 15px;
+      line-height: 27px;
+      color: white;
+    }
+    table {
+      width: 100%;
+    }
+    table th,table td {
+      font-size: 16px;
+      text-align: left;
+      padding: 5px 0px;
+      color: white;
+    }
+    .skill {
+      margin-top: 30px;
+      font-size: 17px;
+      color: white;
+    }
+    .skill span {
+      float: right;
+    }
+    .skill div {
+      width: 100%;
+      float: center;
+      margin-top: 5px;
+      background: #e7e7e7;
+      border-radius: 10px;
+    }
+    .skill div span {
+      background: #E1CDB4;
+      height: 5px;
+      float: center;
+    }
+    .accomplishments {
+      width: 100%;
+      float: center;
+      padding: 110px 0px 110px 0px;
+    }
+    .heading-text1 {
+      width: 100%;
+      float: center;
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 50px;
+      color: #E1CDB4;
+    }
+    .accomplishment {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 10px;
+      width: 95%;
+      text-align: center;
+    }
+    .accomplishment h3 {
+      color: #333;
+    }
+    .accomplishment p {
+      color: #666;
+    }
+    .accomplishments-text p {
+      color: #666;
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .contact form {
+      width: 66%;
+      margin: 0px auto;
+    }
+    .contact input,textarea {
+      width: 100%;
+      float: left;
+      margin-bottom: 20px;
+      height: 40px;
+      padding: 10px;
+      border: 1px solid #a1a1a1;
+    }
+    .contact textarea {
+      height: 80px;
+    }
+    .contact button {
+      width: 100%;
+      float: left;
+      margin-bottom: 20px;
+      height: 40px;
+      padding: 10px;
+      background: #E1CDB4;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+    }
+    .footer {
+      background-color: #202020;
+      padding: 30px 0px 40px 0px;
+      width: 100%;
+      float: left;
+    }
+    .footer-sect {
+      color: #b3b3b3;
+    }
+    .footer-sect a {
+      color: #b3b3b3;
+      margin-left: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: center;
+    }
+    .social-icon a i {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #cdcdcd;
+      line-height: 50px;
+      font-size: 20px;
+      border-radius: 50%;
+    }
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="main-panel">
+        <div class="container">
+          <div class="width-33 logo">Port<span class="span-col">folio</span>
+          </div>
+          <div class="width-66">
+            <nav>
+              <nav>
+                <a href="#home"><span class="span-col">Home</span></a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#accomplishments">Accomplishments</a>
+                <a href="#contact">Contact</a>
+             </nav>
+             
+            </nav>
+          </div>
+        </div>
+        <div id="home" class="container-1">
+          <div class="width-50">
+              <div class="banner-section">
+                <span class="span-col">Welcome To portfolio.com</span>
+                <h1>Latha<span class="span-col"> K</span>
+                </h1>
+                <h2 style="color:white">~Success is not just about achieving your goals, but also about the journey you take to reach them.</h2>
+              </div>
+            </div>
+            <div class="width-50">
+              <img src="woman.jpg">
+            </div>
+          </div>
+          </div>
+          <div id="about" class="main-section">
+            <div class="container">
+              <div class="width-50">
+                <img src="woman.jpg" class="about-img">
+              </div>
+              <div class="width-50">
+                <div class="about">
+                  <h2 class="heading-text">About</h2>
+                  <h3>Front-end Web developer Projects</h3>
+                  <p>Hi, I am Latha K, as a web developer, I thrive on turning ideas into interactive and engaging digital experiences. With a passion for coding and design, I meticulously craft websites that blend functionality with aesthetic appeal. Each line of code is an opportunity to create something meaningful and impactful, and I am driven by the endless possibilities of the digital realm.</p>
+                  <div class="width-50 mt-20">
+                    <table cellspacing="8" cellpadding="8">
+                      <tr>
+                        <th>Name:</th>
+                        <td>Latha K</td>
+                      </tr>
+                      <tr>
+                        <th>Email:</th>
+                        <td> latha@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <th>Date of Birth:</th>
+                        <td> 20 Feburary, 2005</td>
+                      </tr>
+                      <tr>
+                        <th>Education:</th>
+                        <td> Geethanjali College of Engineering and Technology</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="width-50 mt-20">
+                    <table cellspacing="8" cellpadding="8">
+                      <tr>
+                        <th>Phone:</th>
+                        <td>(+91) 79016 26898</td>
+                      </tr>
+                      <tr>
+                        <th>City:</th>
+                        <td>Hyderabad, India</td>
+                      </tr>
+                      <tr>
+                        <th>Freelancing:</th>
+                        <td> Available</td>
+                      </tr>
+                      <tr>
+                        <th>Website:</th>
+                        <td> www.portfolio.com</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="skills" class="main-section">
+            <div class="container">
+              <h2 class="heading-text">Skills</h2>
+              <div class="width-50">
+                <div class="skill">
+                  <b>HTML</b>
+                  <span>95%</span>
+                  <div>
+                    <span style="width:95%"></span>
+                  </div>
+                </div>
+                <div class="skill">
+                  <b>CSS</b>
+                  <span>91%</span>
+                  <div>
+                    <span style="width:91%"></span>
+                  </div>
+                </div>
+                <div class="skill">
+                  <b>JavaScript</b>
+                  <span>85%</span>
+                  <div>
+                    <span style="width:85%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="accomplishments" class="main-section accomplishments">
+            <h2 class="heading-text1">Accomplishments</h2>
+            <div class="container">
+                <div class="accomplishment">
+                    <h3>Project My Portfolio</h3>
+                    <p>Designed and developed my personal portfolio website, showcasing my skills and accomplishments. Implemented a clean and modern design with a focus on user experience.</p>
+                </div>
+                <div class="accomplishment">
+                    <h3>Project Netflix Homepage</h3>
+                    <p>Recreated the Netflix homepage as part of an internship. Demonstrated creativity in design and proficiency in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="accomplishments-text">
+                  <p>
+                      I am proud of my achievements and continuous growth in the field of web development. These accomplishments reflect my dedication to delivering high-quality solutions and my passion for coding.
+                  </p>
+              </div>
+            </div>
+        </div>        
+        <div id="contact" class="main-section contact">
+          <div class="container">
+      <h2 class="heading-text">Contact</h2>
+      <div class="width-100">
+        <form>
+          <input type="text" placeholder="Enter your  Full Name...">
+          <input type="text" placeholder="Enter your Email Id...">
+          <input type="text" placeholder="Enter your Mobile No...">
+          <textarea placeholder="Enter your Address..."></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+          <div class="footer">
+            <div class="container">
+              <div class="footer-sect social-icon width-50">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+              <div class="footer-sect mt-20 width-50">CopyRight © 2024 portfolio.com Website Template. All Rights Reserved</div>
+            </div>
+          </div>
+</body>
+</html>
